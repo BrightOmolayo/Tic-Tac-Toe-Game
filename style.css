@@ -4,9 +4,12 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-template-rows: 3, 200px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, 180px);
     background-color: pink;
+    width: 40%;
+    position: absolute;
+    left: 30%;
 }
 .cell{
     border: 1px solid black;
