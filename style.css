@@ -1,16 +1,20 @@
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(21, 1, 21);
 }
 
 .container{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    grid-template-rows: repeat(3, 180px);
-    background-color: pink;
-    width: 40%;
+    grid-template-rows: repeat(3, 150px);
+    background-color: rgb(235, 225, 227);
+    width: 35%;
     position: absolute;
-    left: 30%;
+    left: 32%;
+    box-shadow: 2px 2px 6px 4px rgb(77, 76, 75);
 }
 .cell{
     border: 1px solid black;
+}
+.cell:hover{
+    background-color: rgb(139, 122, 98);
 }
