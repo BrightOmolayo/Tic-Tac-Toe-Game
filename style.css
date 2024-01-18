@@ -19,3 +19,6 @@ body{
 .cell:hover{
     background-color: rgb(139, 122, 98);
 }
+.text{
+    text-align: center;
+}
